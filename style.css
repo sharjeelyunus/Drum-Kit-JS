@@ -1,6 +1,5 @@
 html {
     font-size: 10px;
-    background-image: url(map-color-overlay.png);
     background-color: rgb(226, 64, 43);
     background-size: cover;
   }
@@ -9,7 +8,9 @@ html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    height: 100%;
   }
+  
   
   .keys {
     display: flex;
@@ -31,6 +32,7 @@ html {
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
+    cursor: pointer;
   }
   
   .playing {
@@ -49,5 +51,32 @@ html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+  }
+
+  footer {
+    text-align: center;
+    color: #ffffff;
+    margin-top: -100px;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: #ffc600;
+  }
+
+  ul{
+    display: inline-flex;
+    list-style: none;
+  }
+
+  .social-icon {
+    padding-left: 0;
+  }
+
+  .fa {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    color: rgb(36, 36, 36);
   }
   
