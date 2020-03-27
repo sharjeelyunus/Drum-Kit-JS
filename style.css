@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background-color: rgb(226, 64, 43);
+    background-color: #e2402b;
     background-size: cover;
   }
   
@@ -13,7 +13,7 @@ html {
   header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: -190px;
+    margin-bottom: -180px;
     color: #ffffff;
     font-family: 'Pacifico', cursive;
   }
@@ -21,6 +21,7 @@ html {
   .title {
     font-size: 20px;
     margin: 0px;
+    display: inline-flex;
   }
 
   h1 {
@@ -28,7 +29,8 @@ html {
   }
 
   .fas {
-    font-size: 40px;
+    font-size: 50px;
+    margin-right: 5px;
   }
   
   /* 3 borders color after h1 */
@@ -60,15 +62,11 @@ div.borderColor3 {
     justify-content: center;
   }
 
-  .h2 {
-    font-size: 20px;
-    margin: 3px;
-  }
-
   .guide {
     list-style: disc;
     margin: 5px;
-    font-size: 12px;
+    font-size: 17px;
+    list-style: none;
   }
   
   .key {
@@ -81,7 +79,7 @@ div.borderColor3 {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.253);
     text-shadow: 0 0 .5rem black;
     cursor: pointer;
   }
@@ -115,7 +113,7 @@ div.borderColor3 {
     color: #ffc600;
   }
 
-  ul{
+  .wow{
     display: inline-flex;
     list-style: none;
     margin: 0px;
@@ -131,4 +129,6 @@ div.borderColor3 {
     font-size: 15px;
     color: rgb(36, 36, 36);
   }
-  
+
+
+
