@@ -55,11 +55,15 @@ div.borderColor3 {
   width: 95px;
   height: 5px;
 }
+.key-parent {
+  display: flex;
+  flex-direction: column;
+}
   .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
-    align-items: center;
+    min-height: 55vh;
+    align-items: end;
     justify-content: center;
   }
 
@@ -84,6 +88,18 @@ div.borderColor3 {
     text-shadow: 0 0 .5rem black;
     cursor: pointer;
   }
+  .space-keys {
+    display: flex;
+    flex: 1;
+    min-height: 25vh;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .space {
+    width: 400px;
+  }
   
   .playing {
     transform: scale(1.1);
@@ -94,6 +110,7 @@ div.borderColor3 {
   kbd {
     display: block;
     font-size: 4rem;
+    text-transform: uppercase ;
   }
   
   .sound {
@@ -106,7 +123,6 @@ div.borderColor3 {
   footer {
     text-align: center;
     color: #ffffff;
-    margin-top: -80px;
   }
 
   footer a{
@@ -138,21 +154,23 @@ div.borderColor3 {
       grid-gap: 20px;
       /* grid-template-columns: repeat(auto-fill, minmax(40px, 100px)); */
       grid-template: 90px 90px 90px / auto auto auto;
-      margin-top: 200px;
+      margin-top: 250px;
+      min-height: auto;
+  }
+  .space-keys {
+    min-height: auto;
   }
 
   .key {
     width: 65px;
     height: 55px;
-    
   }
 
   .guide {
     padding: 0px;
   }
-
-  footer {
-    margin-top: -300px;
+  .space {
+    width: 200px;
   }
 
   }
